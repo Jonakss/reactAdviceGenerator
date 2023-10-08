@@ -29,7 +29,7 @@ const AdviceCard = (props: AdviceCardProps) => {
                 <VStack gap={'1.5rem'} >
                     <Text fontFamily='Manrope, sans-serif' letterSpacing={'.3rem'} fontWeight='800' fontSize={'12px'} color={'hsl(150, 100%, 66%)'}>ADVICE #{props.advice.id}</Text>
                     <Text fontFamily='Manrope, sans-serif' fontWeight='800' color={'hsl(193, 38%, 86%)'} fontSize={'28px'}>"{props.advice.advice}"</Text>
-                    <Image src={dDivider} my={'2rem'} />
+                    <Image src={dDivider} my={'1rem'} />
                 </VStack>
             </Box>
             <IconButton
